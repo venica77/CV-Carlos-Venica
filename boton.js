@@ -14,8 +14,8 @@ document.addEventListener('click', function(){
     document.getElementById("demo").innerHTML="Con su cerebro en llamas";
 });
 
-document.getElementById('boton_color').addEventListener('click', function(){
-document.body.style.backgroundColor= '#1D747F ';
+document.getElementById('boton_colour').addEventListener('click', function(){
+document.body.style.backgroundColor= '#6C8EAD';
 });
 document.getElementById('boton_default').addEventListener('click', function(){
     document.body.style.backgroundColor= 'blue ';
@@ -26,5 +26,5 @@ document.getElementById('boton_ocultar').addEventListener('click', function(){
 
     const collection = document.getElementsByClassName("prueba");
 for (let i = 0; i < collection.length; i++) {
-  collection[i].style.backgroundColor = "green";
+  collection[i].style.backgroundColor = "gray";
 }
